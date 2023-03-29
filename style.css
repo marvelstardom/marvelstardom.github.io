@@ -1518,19 +1518,35 @@ form textarea {
   border-radius: 10px;
   overflow: hidden;
   background: #262936;
-  margin-bottom: 30px; }
+  margin-bottom: 30px; 
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
   .photo .photo-preview {
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    padding: 45px 20px 30px 60px;
     position: absolute;
+    color: white;
     width: 50%;
     left: 0;
     top: 0;
     bottom: 0;
     background-size: cover; }
+  .photo .photo-preview img {
+    width: 300px;
+    height: 300px;
+  }
+  .photo .photo-preview h1 {
+    font-size: 70px;
+  }
+  .photo .photo-preview h2 {
+    font-size: 30px;
+  }
   .photo .photo-details {
-    padding: 20px; }
+    padding: 30px 30px 30px 60px; }
   .photo .photo-title {
     margin-bottom: 10px;
-    font-weight: 300; }
+    font-weight: 400; }
     .photo .photo-title a {
       color: white; }
 
@@ -1674,3 +1690,35 @@ form textarea {
     .site-footer .social-links a:hover {
       background: #009ad8;
       color: white; }
+
+
+      /* Weather Info */
+        .wea-input {
+          background-color: #262936;
+          padding: 24px 0px 12px 0px !important;
+          width: 55%;
+          box-sizing: border-box;
+          border: none !important;
+          border-bottom: 1px solid #CFD8DC !important;
+          font-size: 16px !important;
+        }
+        .wea-btn {
+          background: #009ad8;
+          color: white;
+          padding: 12px 11px 12px 10px;
+          font-weight: 400;
+          width: 25%;
+        }
+        .weather-info {
+          margin-top: 12%;
+          margin-bottom: 12%;
+        }
+        .weather-info ul {
+          list-style-type: none;
+        }
+        .weather-info ul li {
+          padding: 3%;
+        }
+        .weather-info ul li span {
+          float: right;
+        }
