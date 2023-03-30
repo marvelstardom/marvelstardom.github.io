@@ -1243,7 +1243,7 @@ form textarea {
     @media screen and (max-width: 990px) {
       .forecast-container .forecast {
         display: block;
-        width: 16.6667%;
+        width: 33%;
         float: left; } }
     .forecast-container .forecast.today {
       width: 420px; }
@@ -1523,8 +1523,9 @@ form textarea {
   padding-top: 30px;
 }
   .photo .photo-preview {
-    background-image: linear-gradient(#2196F3, #81D4FA);
-    padding: 30px 20px 30px 60px;
+    /* background-image: linear-gradient(#2196F3, #81D4FA); */
+    background-image: url('images/banner3.jpg');
+    padding: 180px 60px 120px 60px;
     position: absolute;
     color: white;
     width: 50%;
@@ -1698,24 +1699,18 @@ form textarea {
 
       /* Weather Info */
         .wea-input {
-          background-color: #262936;
-          padding: 24px 0px 12px 0px !important;
-          width: 55%;
-          box-sizing: border-box;
-          border: none !important;
-          border-bottom: 1px solid #CFD8DC !important;
-          font-size: 16px !important;
-        }
-        .wea-btn {
-          background: #262936;
-          color: #009ad8;
-          padding: 12px 11px 12px 10px;
-          font-weight: 400;
-          width: 25%;
-          border: 3px solid #009ad8;
+          width: 65%;
+          padding: 15px;
+          margin-bottom: 10px;
+          color: white;
+          border: 2px solid #393c48;
+          background: transparent;
           border-radius: 23px;
         }
-        .wea-btn:hover {
+        .wea-input:hover {
+          border-color: #009ad8;
+        }
+        .wea-btn {
           background: #009ad8;
           color: white;
           padding: 12px 11px 12px 10px;
