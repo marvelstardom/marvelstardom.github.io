@@ -1875,5 +1875,20 @@ form textarea {
       background: #009ad8;
       color: white; }
 
+/* #1e202b */
+/* #bfc1c8 */
+/* #838386 */
+
+  df-messenger {
+    --df-messenger-bot-message: #009ad8;
+    --df-messenger-button-titlebar-color: #009ad8;
+    --df-messenger-chat-background-color: #1e202b;
+    --df-messenger-from-user-df-message-text: #1e202b;
+    --df-messenger-from-bot-df-message-text: #ffffff;
+    /* --df-messenger-font-color: white; */
+    --df-messenger-send-icon: #009ad8;
+    --df-messenger-user-message: #ababad;
+  }
+
 
       
