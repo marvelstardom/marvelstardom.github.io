@@ -1633,18 +1633,18 @@ form textarea {
         font-size: 18px;
       }
 
-      p {
+      /* p {
         font-size: 16px;
-      }
+      } */
       a {
         font-size: 16px;
       }
       span {
         font-size: 16px;
       }
-      input {
+      /* input {
         font-size: 16px;
-      }
+      } */
       .colophon {
         padding: 10px;
       }
